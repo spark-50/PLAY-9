@@ -385,7 +385,7 @@ function play(guild, song) {
 
 }
 
-const adminprefix = "rw";
+const adminprefix = "9";
 const devs = ['234454368072630283', '403312268223447040'];
 
 client.on('message', message => {
@@ -407,7 +407,7 @@ if(message.content === adminprefix + "restart") {
 
 
 client.on("message", message => {
- if (message.content === "Hhelp") {
+ if (message.content === "9help") {
         message.react("❤")
            message.react("📬")
   const embed = new Discord.RichEmbed() 
@@ -415,17 +415,17 @@ client.on("message", message => {
       .setDescription(`
 
  _________________ 
-     1p
+     9p
      امر تشغيل الأغنية , !شغل الرابط او اسم الأعنية
-     rwskip
+     9skip
      تغير الأغنية
-     rwpause
+     9pause
      ايقاف الأغنية
-     rwresume
+     9resume
      مواصلة الأغنية
-     rwvol
+     9vol
    لتغيير درجه الصوت 1-9
-     rwstop
+     9stop
      خروج البوت من الروم
 
  `)
@@ -441,7 +441,7 @@ client.user.setPresence({
   status: 'online', //الحال
   game: {
      type: 0,
-     name: 'Pirates.🔥|rwhelp',    
+     name: 'Pirates.🔥|9help',    
      details: `🎈r-help🎈`,  
      url: 'http://twitch.tv/Streammingg',
      state: `.`,
